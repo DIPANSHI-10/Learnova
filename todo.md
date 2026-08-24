@@ -1,0 +1,34 @@
+# NovaMind AI — Project TODO
+
+- [x] Establish the NovaMind visual system with deep navy, electric purple, blue, cyan, glass surfaces, refined motion, and dark/light preferences.
+- [x] Build a responsive public marketing site with navigation, hero, dashboard preview, feature showcase, product workflow, and conversion actions.
+- [x] Configure secure authentication and protected, user-specific application access using the available project identity system.
+- [x] Define data schema and secure server procedures for tasks, notes, documents, study plans, chat history, quizzes, flashcards, calendar events, learning activity, and settings.
+- [x] Build the personalized dashboard with task/deadline cards, progress metrics, recent notes, recommendations, quick actions, and study trend visualization.
+- [x] Implement full task management with create, edit, complete, delete, categories, priorities, deadlines, and filters.
+- [x] Implement full note management with create, edit, delete, tags, categories, search, and AI learning actions.
+- [x] Build the AI assistant with persistent conversations, response fallback, prompt shortcuts, attachment entry point, and clear-chat control.
+- [x] Implement a document workspace with secure upload validation, extracted-text processing, document listing, and AI analysis actions.
+- [x] Build study-plan generation, persistence, editing, regeneration, and topic-completion tracking.
+- [x] Build quiz generation, interactive answering, explanations, result persistence, and learning-history views.
+- [x] Build flashcard generation, review flow, known/review status controls, and revision-progress tracking.
+- [x] Build the summarizer with text/document inputs, short/medium/detailed output, copy, download, and save-to-notes actions.
+- [x] Build calendar views for tasks, study sessions, exams, deadlines, and user-created events.
+- [x] Build analytics for study time, task completion, quiz performance, subject performance, streaks, and personalized insights.
+- [x] Build profile and settings controls for user details, theme, notifications, AI preferences, and session controls.
+- [x] Add the server-side AI/document-processing service layer with environment configuration, safe input/file validation, and local fallback behavior.
+- [x] Write and run server and UI tests covering user-data isolation, core CRUD flows, study flows, and fallback AI behavior.
+- [x] Verify the desktop and mobile product experience, resolve runtime and console errors, and prepare final delivery documentation.
+- [x] Add the optional FastAPI Python companion with safe chat, summarization, and PDF/TXT extraction fallback endpoints.
+- [x] Wire note-level summarize, question, flashcard, and explain actions to the protected learning service.
+- [x] Wire assistant document attachment upload and private conversational analysis.
+- [x] Add study-plan editing and regeneration controls with persistent updates.
+- [x] Add visible flashcard revision progress metrics.
+- [x] Add a genuine weekly calendar view alongside the agenda.
+- [x] Add protected profile name and avatar controls.
+- [x] Expand automated testing for protected route ownership, core workflow inputs, and product UI rendering.
+- [x] Prepare a self-contained VS Code source package with local development dependencies and configuration guidance.
+- [x] Add SQL Shell database creation, schema migration, and local database connection instructions.
+- [x] Create and validate a downloadable ZIP archive containing the complete local project source and setup files.
+- [ ] Replace the Unix-only development script so the exported project starts correctly from Windows PowerShell.
+- [ ] Update the local VS Code guide and downloadable ZIP with the corrected Windows commands and environment-file order.
