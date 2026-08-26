@@ -1,6 +1,6 @@
-# NovaMind AI
+# Learnova
 
-NovaMind AI is a secure, AI-assisted study and productivity workspace. It provides a responsive public marketing experience and a protected personal workspace for tasks, notes, documents, study plans, chat history, quizzes, flashcards, calendar events, and learning analytics.
+Learnova is a secure, AI-assisted study and productivity workspace. It provides a responsive public marketing experience and a protected personal workspace for tasks, notes, documents, study plans, chat history, quizzes, flashcards, calendar events, and learning analytics.
 
 ## Product capabilities
 
