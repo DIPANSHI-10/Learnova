@@ -1,0 +1,5 @@
+# Export these variables in your shell or hosting environment. Do not commit real API keys.
+NOVAMIND_LLM_BASE_URL=
+NOVAMIND_LLM_API_KEY=
+NOVAMIND_LLM_MODEL=
+NOVAMIND_MAX_DOCUMENT_BYTES=5242880

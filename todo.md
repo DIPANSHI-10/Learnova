@@ -1,0 +1,82 @@
+# NovaMind AI — Project TODO
+
+- [x] Establish the NovaMind visual system with deep navy, electric purple, blue, cyan, glass surfaces, refined motion, and dark/light preferences.
+- [x] Build a responsive public marketing site with navigation, hero, dashboard preview, feature showcase, product workflow, and conversion actions.
+- [x] Configure secure authentication and protected, user-specific application access using the available project identity system.
+- [x] Define data schema and secure server procedures for tasks, notes, documents, study plans, chat history, quizzes, flashcards, calendar events, learning activity, and settings.
+- [x] Build the personalized dashboard with task/deadline cards, progress metrics, recent notes, recommendations, quick actions, and study trend visualization.
+- [x] Implement full task management with create, edit, complete, delete, categories, priorities, deadlines, and filters.
+- [x] Implement full note management with create, edit, delete, tags, categories, search, and AI learning actions.
+- [x] Build the AI assistant with persistent conversations, response fallback, prompt shortcuts, attachment entry point, and clear-chat control.
+- [x] Implement a document workspace with secure upload validation, extracted-text processing, document listing, and AI analysis actions.
+- [x] Build study-plan generation, persistence, editing, regeneration, and topic-completion tracking.
+- [x] Build quiz generation, interactive answering, explanations, result persistence, and learning-history views.
+- [x] Build flashcard generation, review flow, known/review status controls, and revision-progress tracking.
+- [x] Build the summarizer with text/document inputs, short/medium/detailed output, copy, download, and save-to-notes actions.
+- [x] Build calendar views for tasks, study sessions, exams, deadlines, and user-created events.
+- [x] Build analytics for study time, task completion, quiz performance, subject performance, streaks, and personalized insights.
+- [x] Build profile and settings controls for user details, theme, notifications, AI preferences, and session controls.
+- [x] Add the server-side AI/document-processing service layer with environment configuration, safe input/file validation, and local fallback behavior.
+- [x] Write and run server and UI tests covering user-data isolation, core CRUD flows, study flows, and fallback AI behavior.
+- [x] Verify the desktop and mobile product experience, resolve runtime and console errors, and prepare final delivery documentation.
+- [x] Add the optional FastAPI Python companion with safe chat, summarization, and PDF/TXT extraction fallback endpoints.
+- [x] Wire note-level summarize, question, flashcard, and explain actions to the protected learning service.
+- [x] Wire assistant document attachment upload and private conversational analysis.
+- [x] Add study-plan editing and regeneration controls with persistent updates.
+- [x] Add visible flashcard revision progress metrics.
+- [x] Add a genuine weekly calendar view alongside the agenda.
+- [x] Add protected profile name and avatar controls.
+- [x] Expand automated testing for protected route ownership, core workflow inputs, and product UI rendering.
+- [x] Prepare a self-contained VS Code source package with local development dependencies and configuration guidance.
+- [x] Add SQL Shell database creation, schema migration, and local database connection instructions.
+- [x] Create and validate a downloadable ZIP archive containing the complete local project source and setup files.
+- [x] Replace the Unix-only development script so the exported project starts correctly from Windows PowerShell.
+- [x] Update the local VS Code guide and downloadable ZIP with the corrected Windows commands and environment-file order.
+- [x] Remove the duplicate local users-table bootstrap so Drizzle can apply the initial migration cleanly.
+- [x] Rebuild the local MySQL ZIP and provide recovery commands for the current fresh database setup.
+- [x] Prepare a complete end-to-end local test plan covering automated checks, every NovaMind feature, edge cases, responsiveness, database verification, and bug reporting.
+- [x] Make local startup open the public Learnova landing page and make local logout visibly end the active local session.
+- [x] Improve document upload visibility, extraction presentation, and structured document-learning output quality.
+- [x] Replace generic fallback AI replies with intent-aware quiz, flashcard, summary, explanation, and study-plan responses.
+- [x] Correct flashcard review/known persistence, unique quiz-question generation, and planner day-count calculations.
+- [x] Rebrand NovaMind AI to Learnova with a sun-inspired logo and warm, high-contrast visual system.
+- [x] Add polished hover states, scroll-aware motion, and interactive card effects inspired by the provided visual reference without copying its content or identity.
+- [x] Preserve the existing local commands and MySQL password convention while rebuilding and testing the corrected Windows package.
+- [x] Verify and reinforce flashcard review/known status persistence with immediate saved-state feedback.
+- [x] Add automated verification that flashcard known/review status survives a reloaded protected list.
+- [x] Add a mock-backed flashcard save-and-reload behavior test for known and review states.
+- [x] Repair the local Learnova sign-in handoff so the landing-page entry button reliably opens the authenticated dashboard.
+- [x] Replace initial-load marketing text animation with accessible scroll-triggered reveal animation across the Learnova landing page.
+- [x] Add a mock-backed local login route test covering session-cookie creation and dashboard redirect.
+- [x] Rebuild and verify one final Windows/MySQL Learnova package without changing the user’s run commands.
+- [x] Replace the legacy blue/purple workspace palette with Learnova’s warm cream, amber, orange, and terracotta visual tokens.
+- [x] Apply Learnova branding, sun mark, gradients, hover behavior, and cohesive motion across the sidebar, dashboard, and every learning page.
+- [x] Replace any remaining NovaMind product terminology throughout the authenticated experience and local metadata.
+- [x] Verify desktop and mobile workspace pages use the same unified Learnova design language as the landing page.
+- [x] Visually verify the assistant, documents, planner, quiz, flashcards, calendar, analytics, and settings routes at desktop and mobile sizes after the Learnova rebrand.
+- [x] Verify the planner, quiz, calendar, and analytics routes at the mobile breakpoint after the Learnova rebrand.
+- [x] Confirm the loaded mobile calendar state, not only its loading state, uses the unified Learnova design system.
+- [x] Obtain an evidence-backed independent review of the loaded mobile Learnova calendar state.
+- [x] Add the Learnova sun mark to the compact mobile workspace header for consistent brand recognition.
+- [x] Repair local logout so it clears the session, returns to the landing page, and permits a different local user to sign in.
+- [x] Add a local multi-user entry flow with name and email inputs that creates or reuses an isolated user account in MySQL.
+- [x] Verify local account switching and user-specific data isolation, then package the corrected Windows/MySQL ZIP without changing startup commands.
+- [x] Apply the Learnova sun logo consistently across the public landing page, authenticated sidebar, mobile header, account entry flow, and browser identity.
+- [x] Add explicit test evidence that local user A and user B receive separate session identities and retain isolated data ownership after switching.
+- [x] Rebuild and integrity-check the final Windows/MySQL ZIP containing the local multi-user logout correction.
+- [x] Diagnose why local Begin learning and Sign in actions remain on the landing page in a Windows VS Code run.
+- [x] Correct the local session handoff so a successful sign-in always reaches the dashboard and a fresh user can be stored in MySQL.
+- [x] Verify SQL initialization, logout, second-user sign-in, and database-backed account isolation using the local configuration.
+- [x] Rebuild the Windows ZIP and provide an SQL-first setup sequence with the existing pnpm dev command and NovaMind2026 password.
+- [x] Prepare a complete A-to-Z Learnova testing document with test inputs, expected results, database checks, and a structured failure-report template.
+- [x] Identify and document the exact dynamic time-of-day dashboard greeting replacement for local editing.
+- [x] Replace repeated generic assistant and note-action replies with topic-aware responses tied to the user’s actual prompt or material.
+- [x] Repair PDF/document attachment follow-up questions so the typed question persists, receives an answer, and shows a visible error if processing fails.
+- [x] Rebuild quiz generation so each subject produces distinct questions, varied plausible answer options, and correctly tracked answers.
+- [x] Rebuild flashcard generation so every card has distinct topic/source-grounded prompts and answers instead of repeated card templates.
+- [x] Improve summarizer output quality and validation for different user-provided subjects/material.
+- [x] Make the profile avatar upload control easy to find and verify its supported image workflow.
+- [ ] Rebuild a corrected Windows/MySQL ZIP after the repaired AI, quiz, flashcard, attachment, summarizer, and avatar workflows are fully validated.
+- [x] Apply and verify the dynamic dashboard time-of-day greeting in the project code.
+- [x] Add summarizer regression coverage and verify summaries across distinct source materials plus empty-input validation.
+- [x] Verify valid and invalid profile-avatar upload paths after the visible Settings control update.
